@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import javax.annotation.Resource;
+//import javax.annotation.Resource;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -22,7 +22,7 @@ public class ServletPruebas extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        // Establecer el Datasource
 	
-	@Resource(name="jdbc/products")
+	//@Resource(name="jdbc/products")
 	private DataSource miPool;
 	
     /**

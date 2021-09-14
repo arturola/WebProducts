@@ -3,7 +3,7 @@ package com.mvc.prducts;
 import java.io.IOException;
 import java.util.List;
 
-import javax.annotation.Resource;
+//import javax.annotation.Resource;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -21,7 +21,7 @@ public class ControladorProductos extends HttpServlet {
        
     private ModeloProductos modeloProductos;
     
-    @Resource(name="jdbc/products")
+   // @Resource(name="jdbc/products")
 	private DataSource miPool;
     
    

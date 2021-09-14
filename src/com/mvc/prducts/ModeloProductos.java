@@ -17,7 +17,7 @@ public class ModeloProductos {
 
 	public List<Products> getProducts() throws Exception {
 		
-		List<Products> products=new ArrayList<>();
+		List<Products> products=new ArrayList<Products>();
 		
 		Connection miConexion=null;
 		Statement miStatement=null;
