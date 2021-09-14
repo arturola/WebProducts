@@ -41,6 +41,7 @@ public class ServletPruebasRemoto extends HttpServlet {
 		// response.getWriter().append("Served at: ").append(request.getContextPath());
 		PrintWriter salida = response.getWriter();
 		response.setContentType("text/plain");
+		response.addHeader("Access-Control-Allow-Origin", "*");
 		
 		Connection miConexion=null;
 		Statement miStatement=null;

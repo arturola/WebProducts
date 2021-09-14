@@ -12,6 +12,6 @@
 	</servlet>
 	  <servlet-mapping>
 	  	<servlet-name>ServletPruebasRemoto</servlet-name>
-	  	<url-pattern>/ServletPruebasRemoto</url-pattern>
+	  	<url-pattern>/ServletPruebasRemoto.htm</url-pattern>
 	  </servlet-mapping>
 </web-app>
